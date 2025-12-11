@@ -152,7 +152,7 @@ const Training = () => {
 
 </div>
          <button
-  class="px-6 py-3 rounded-xl w-50 text-white font-medium
+  class="px-6 py-3 cursor-pointer rounded-xl w-50 text-white font-medium
          bg-linear-to-r from-[#5373FF] to-[#155DFC]
          transition-all duration-300 ease-out
          origin-top-left hover:scale-110

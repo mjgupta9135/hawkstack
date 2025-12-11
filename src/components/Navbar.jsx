@@ -23,11 +23,11 @@ export default function Navbar() {
           <a href="#" className="hover:text-white transition">RHCSA Certification</a>
         </div>
         <div className="flex items-center gap-4 text-white text-base">
-          <button className="px-5 py-2 rounded-3xl bg-white/10 border  border-white/20 hover:bg-white/20 hover:border-red-500">
+          <button className="px-5 cursor-pointer py-2 rounded-3xl bg-white/10 border  border-white/20 hover:bg-white/20 hover:border-red-500">
             Contact
           </button>
 
-          <button className="px-5 py-2 rounded-3xl bg-blue-600 hover:bg-blue-700 hover:scale-110 duration-100 ease-in-out text-white shadow-lg shadow-blue-600/40">
+          <button className="px-5 py-2 cursor-pointer rounded-3xl bg-blue-600 hover:bg-blue-700 hover:scale-110 duration-100 ease-in-out text-white shadow-lg shadow-blue-600/40">
             Talk to Learning Team
           </button>
         </div>

@@ -32,17 +32,17 @@ const Footer = () => {
       <div className="flex justify-center gap-6">
 
        
-        <button className="
+        <button className=" cursor-pointer
           group relative px-8 py-3 rounded-lg text-white text-base font-medium 
           bg-linear-to-r from-[#4A63FF] to-[#6D4DFF]
           shadow-[0_0_40px_rgba(90,110,255,0.5)]
           hover:scale-[1.04] transition-all duration-300 ease-out">
           
           <span className="mr-2 text-xl">Start Free Trial</span>
-          <ArrowRight className="inline w-4 h-4 group-hover:translate-x-1 transition-transform" />
+          <ArrowRight className="inline font-bold w-6 h-6 text-xl group-hover:translate-x-1 transition-transform" />
         </button>
 
-        <button className="
+        <button className=" cursor-pointer
           flex items-center gap-2 px-8 py-3 text-xl rounded-lg text-gray-200  font-medium
           bg-white/5 border border-white/10 hover:border-white/20
           transition-all duration-300">
@@ -74,8 +74,8 @@ const Footer = () => {
 
 
         <div>
-          <h4 className="font-medium text-lg text-white mb-3">Product</h4>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <h4 className="font-medium text-lg text-white mb-3 cursor-pointer">Product</h4>
+          <ul className="space-y-2 text-gray-400 text-sm cursor-pointer">
             <li>Features</li>
             <li>Pricing</li>
             <li>Documentation</li>
@@ -85,8 +85,8 @@ const Footer = () => {
 
 
         <div>
-          <h4 className="font-medium text-lg text-white mb-3">Company</h4>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <h4 className="font-medium text-lg text-white mb-3 cursor-pointer">Company</h4>
+          <ul className="space-y-2 text-gray-400 text-sm cursor-pointer">
             <li>About Us</li>
             <li>Careers</li>
             <li>Blog</li>
@@ -96,8 +96,8 @@ const Footer = () => {
 
 
         <div>
-          <h4 className="font-medium text-lg text-white mb-3">Legal</h4>
-          <ul className="space-y-2 text-gray-400 text-sm">
+          <h4 className="font-medium text-lg text-white mb-3 cursor-pointer">Legal</h4>
+          <ul className="space-y-2 text-gray-400 text-sm cursor-pointer">
             <li>Privacy Policy</li>
             <li>Terms of Service</li>
             <li>Security</li>
@@ -113,13 +113,13 @@ const Footer = () => {
 
   <div className="flex items-center gap-6">
     <Linkedin 
-      className="w-6 h-6 text-[#4A63FF] hover:text-[#6D4DFF] transition duration-300" 
+      className="w-6 h-6 cursor-pointer text-[#4A63FF] hover:text-[#6D4DFF] transition duration-300" 
     />
     <Twitter 
-      className="w-6 h-6 text-[#4A63FF] hover:text-[#6D4DFF] transition duration-300" 
+      className="w-6 h-6 cursor-pointer text-[#4A63FF] hover:text-[#6D4DFF] transition duration-300" 
     />
     <Github 
-      className="w-6 h-6 text-[#4A63FF] hover:text-[#6D4DFF] transition duration-300" 
+      className="w-6 h-6 cursor-pointer text-[#4A63FF] hover:text-[#6D4DFF] transition duration-300" 
     />
   </div>
 

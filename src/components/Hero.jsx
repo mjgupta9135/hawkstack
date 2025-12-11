@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
 
           <h1 className="mt-8 text-5xl w-7xl font-bold leading-tight">
-            <span className="bg-linear-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
+            <span className="bg-linear-to-r from-[#5472FE] to-[#E90510] text-transparent bg-clip-text">
               RHCSA Certification &
             </span>
             <br  className='mt-4'/>
@@ -41,7 +41,7 @@ const Hero = () => {
 
   
   <button
-    class="relative z-10 px-8 py-3 rounded-xl bg-blue-600 text-white 
+    class="relative z-10 px-8 cursor-pointer py-3 rounded-xl bg-blue-600 text-white 
            font-medium shadow-lg shadow-blue-600/40 
            group-hover:scale-[1.06] group-hover:-scale-105
            origin-right-bottom transition-all duration-300"
@@ -51,7 +51,7 @@ const Hero = () => {
 </div>
 
 
-            <button className="px-6 py-3 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20">
+            <button className="px-6 py-3 cursor-pointer rounded-xl bg-white/10 hover:bg-white/20 border border-white/20">
               View Courses
             </button>
           </div>

@@ -117,7 +117,7 @@ const Testimonials = () => {
               Join the ranks of successful enterprises powered by HawkStack
             </p>
 
-           <button className=" w-[375px] h-[75px]
+           <button className=" cursor-pointer w-[375px] h-[75px]
   group relative inline-flex items-center justify-center 
   px-8 py-3 text-white font-medium rounded-lg 
   bg-linear-to-r from-red-600 via-purple-500 to-blue-600
