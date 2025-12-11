@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/src/assets/fonts/Poppins-Regular.ttf") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.my-text {
+  font-family: "Poppins", sans-serif;
+}
+
+@layer utilities {
+  @keyframes slide-right {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(40px); /* move to right */
+    }
+    100% {
+      transform: translateX(0); /* move back left */
+    }
+  }
+
+  .animate-slide-right {
+    animation: slide-right 8s ease-in-out infinite;
+  }
+}
+
+
+
+@layer utilities {
+  @keyframes slide-down {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(40px); /* move down */
+    }
+    100% {
+      transform: translateY(0); /* move back up */
+    }
+  }
+
+  .animate-slide-down {
+    animation: slide-down 8s ease-in-out infinite;
+  }
+}
+
+
+
+@layer utilities {
+  @keyframes slide-up {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px); /* move down */
+    }
+    100% {
+      transform: translateY(0); /* move back up */
+    }
+  }
+
+  .animate-slide-up {
+    animation: slide-down 8s ease-in-out infinite;
+  }
+}
+
+@layer utilities {
+  .font-arial {
+    font-family: Arial, sans-serif;
+  }
+}
