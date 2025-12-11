@@ -6,7 +6,7 @@ const Training = () => {
      <div className="w-full bg-white py-10 px-2 flex justify-center">
       <div className="max-w-6xl  rounded-xl py-10 flex gap-20 bg-white relative">
 
-        {/* LEFT IMAGE WRAPPER */}
+
         <div className="w-[50%] relative pt-30">
           <div className="rounded-xl overflow-hidden shadow-lg">
             <img
@@ -16,10 +16,10 @@ const Training = () => {
             />
           </div>
 
-          {/* Pass Rate Badge */}
+
           <div className="absolute bottom-20 -right-10 flex items-center gap-4 px-5 py-6 animate-slide-up bg-white rounded-2xl shadow-[0_4px_20px_rgba(0,0,0,0.12)] w-fit">
 
-  {/* Red trophy icon box */}
+
       <div className="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center">
        <svg
           width="26"
@@ -32,7 +32,7 @@ const Training = () => {
     </div>
 
 
-  {/* Text */}
+
       <div className="flex flex-col">
         <span className="text-[20px] font-semibold text-gray-900 leading-none">98%</span>
         <span className="text-gray-500 text-sm mt-1">Pass Rate</span>
@@ -42,10 +42,10 @@ const Training = () => {
 
         </div>
 
-        {/* RIGHT CONTENT */}
+
         <div className="w-[50%] flex flex-col justify-center">
 
-          {/* Badge */}
+
           <div>
             
           </div>
@@ -53,25 +53,23 @@ const Training = () => {
                 bg-indigo-50 border border-indigo-200 
                 rounded-full text-indigo-600 text-sm w-fit mb-4">
 
-  <svg 
-    width="20" 
-    height="20" 
-    viewBox="0 0 24 24" 
-    fill="none" 
-    stroke="#4F46E5" 
-    strokeWidth="2" 
-    strokeLinecap="round" 
-    strokeLinejoin="round"
-  >
-    <path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z" />
-    <path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z" />
-  </svg>
+              <svg 
+                width="20" 
+                height="20" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="#4F46E5" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+              >
+                <path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z" />
+                <path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z" />
+              </svg>
 
-  About Our Training
-</div>
+             About Our Training
+           </div>
 
-
-          {/* Heading */}
           <h2 className="text-5xl font-bold font-arial leading-tight mb-4">
             Hands-On{" "}
             <span className="bg-linear-to-r from-[#5373FF] to-[#EE0000] text-transparent bg-clip-text">
@@ -80,7 +78,6 @@ const Training = () => {
             for Real-World Success
           </h2>
 
-          {/* Description */}
           <p className="text-gray-600 mb-8 leading-relaxed">
             Our expert instructors bring years of enterprise experience to deliver 
             comprehensive Red Hat training. From foundational Linux skills to 
@@ -88,35 +85,34 @@ const Training = () => {
             and career advancement.
           </p>
 
-          {/* FEATURES */}
-<div className="flex items-start gap-12 mb-8">
 
-  {/* Expert Mentors */}
-  <div className="flex items-start gap-3">
+        <div className="flex items-start gap-12 mb-8">
 
-    {/* Blue Icon Box */}
-    <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
-      <svg
-        width="28"
-        height="28"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="#4F46E5"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        {/* Left smaller person */}
-        <circle cx="8" cy="10" r="3" />
-        <path d="M5 19c0-2.2 1.8-4 4-4" />
+ 
+       <div className="flex items-start gap-3">
 
-        {/* Right bigger person */}
-        <circle cx="15.5" cy="9" r="3.5" />
-        <path d="M12 19c0-3 2.5-5 5.5-5" />
-      </svg>
-    </div>
+       <div className="w-12 h-12 rounded-xl bg-indigo-50 flex items-center justify-center">
+        <svg
+          width="28"
+          height="28"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#4F46E5"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
 
-    {/* Text */}
+          <circle cx="8" cy="10" r="3" />
+          <path d="M5 19c0-2.2 1.8-4 4-4" />
+
+
+          <circle cx="15.5" cy="9" r="3.5" />
+          <path d="M12 19c0-3 2.5-5 5.5-5" />
+        </svg>
+      </div>
+
+    
     <div>
       <p className="font-semibold text-gray-900 text-lg">Expert Mentors</p>
       <p className="text-gray-500 text-sm leading-[1.3]">
@@ -125,10 +121,9 @@ const Training = () => {
     </div>
   </div>
 
-  {/* Practical Labs */}
+  
   <div className="flex items-start gap-3">
 
-    {/* Red Icon Box */}
     <div className="w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center">
       <svg
         width="26"
@@ -146,7 +141,7 @@ const Training = () => {
       </svg>
     </div>
 
-    {/* Text */}
+
     <div>
       <p className="font-semibold text-gray-900 text-lg">Practical Labs</p>
       <p className="text-gray-500 text-sm leading-[1.3]">
@@ -156,9 +151,6 @@ const Training = () => {
   </div>
 
 </div>
-
-
-          {/* CTA BUTTON */}
          <button
   class="px-6 py-3 rounded-xl w-50 text-white font-medium
          bg-linear-to-r from-[#5373FF] to-[#155DFC]
